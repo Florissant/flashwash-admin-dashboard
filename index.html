@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FlashWash Partner Form</title>
+  <title>FlashWash Plans</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body { font-family: 'Roboto', sans-serif; }
-  </style>
+  <style> body { font-family: 'Roboto', sans-serif; } </style>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -28,18 +26,48 @@
     </div>
   </header>
 
-  <!-- Form Section -->
-  <main class="max-w-xl mx-auto py-10 px-6">
-    <h1 class="text-3xl font-bold text-[#2a3c44] mb-6">Register Your Car Wash</h1>
-    <form action="https://formsubmit.co/florissantkapama@gmail.com" method="POST" class="space-y-4">
-      <input type="text" name="Car Wash Name" placeholder="Car Wash Name" required class="w-full p-3 border rounded">
-      <input type="text" name="Owner’s Full Name" placeholder="Owner’s Full Name" required class="w-full p-3 border rounded">
-      <input type="email" name="Email Address" placeholder="Email Address" required class="w-full p-3 border rounded">
-      <input type="tel" name="Phone Number" placeholder="Phone Number" required class="w-full p-3 border rounded">
-      <input type="text" name="Location" placeholder="Location" required class="w-full p-3 border rounded">
-      <textarea name="Services Offered" placeholder="Services Offered" rows="4" class="w-full p-3 border rounded"></textarea>
-      <button type="submit" class="bg-[#38b2ac] text-white px-6 py-3 rounded-lg hover:bg-[#319e9a]">Submit</button>
-    </form>
+  <!-- Pricing Section -->
+  <main class="max-w-6xl mx-auto py-10 px-6">
+    <h1 class="text-4xl font-bold text-center text-[#2a3c44] mb-10">Subscription Plans</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Basic Plan -->
+      <div class="border rounded-lg p-6 shadow-lg">
+        <h2 class="text-2xl font-semibold text-[#2a3c44]">🧼 Basic Plan</h2>
+        <p class="text-sm text-gray-600">4 washes/month</p>
+        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R399</p>
+        <ul class="text-sm mb-4">
+          <li>✔️ Basic exterior wash</li>
+          <li>✔️ Valid at all partner car washes</li>
+        </ul>
+        <a href="#" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 rounded">Subscribe</a>
+      </div>
+
+      <!-- Standard Plan -->
+      <div class="border rounded-lg p-6 shadow-lg">
+        <h2 class="text-2xl font-semibold text-[#2a3c44]">✨ Standard Plan</h2>
+        <p class="text-sm text-gray-600">6 washes/month</p>
+        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R699</p>
+        <ul class="text-sm mb-4">
+          <li>✔️ Exterior + interior cleaning</li>
+          <li>✔️ Priority service at partner sites</li>
+        </ul>
+        <a href="#" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 rounded">Subscribe</a>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="border rounded-lg p-6 shadow-lg">
+        <h2 class="text-2xl font-semibold text-[#2a3c44]">👨‍👩‍👧‍👦 Premium Plan</h2>
+        <p class="text-sm text-gray-600">10 washes/month</p>
+        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R999</p>
+        <ul class="text-sm mb-4">
+          <li>✔️ Full valet service</li>
+          <li>✔️ Covers multiple vehicles</li>
+        </ul>
+        <a href="#" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 rounded">Subscribe</a>
+      </div>
+
+    </div>
   </main>
 
   <footer class="text-center text-sm text-gray-500 py-6">
